@@ -1,0 +1,19 @@
+.contactListItem {
+  display: flex;
+  gap: 25px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.contactNameButton {
+  height: 25px;
+  background-color: coral;
+  border-radius: 5px;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+.contactName {
+  font-size: 16px;
+  font-weight: 500;
+}

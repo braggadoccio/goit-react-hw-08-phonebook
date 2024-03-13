@@ -1,0 +1,41 @@
+.form {
+  border: 1px solid gray;
+  border-radius: 8px;
+  width: 380px;
+  height: 160px;
+  padding-left: 10px;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  margin-left: 20px;
+  background-color: blanchedalmond;
+}
+
+.formField {
+  margin-bottom: 10px;
+}
+
+.formLabel {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.input {
+  width: 180px;
+  border-radius: 3px;
+  border: 1px solid black;
+  font-size: 15px;
+  outline: none;
+}
+
+.formButton {
+  margin-top: 12px;
+  margin-left: 25px;
+  width: 100px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  height: 25px;
+  background-color: coral;
+  cursor: pointer;
+}
