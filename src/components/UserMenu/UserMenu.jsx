@@ -16,5 +16,3 @@ export const UserMenu = () => {
     </div>
   );
 };
-
-// , {user.email}
