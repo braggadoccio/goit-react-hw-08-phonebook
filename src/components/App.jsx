@@ -30,7 +30,7 @@ export const App = () => {
           path="/register"
           element={
             <RestrictedRoute
-              redirectedTo="/contacts"
+              redirectTo="/contacts"
               component={<RegisterPage />}
             />
           }
@@ -38,16 +38,13 @@ export const App = () => {
         <Route
           path="/login"
           element={
-            <RestrictedRoute
-              redirectedTo="/contacts"
-              component={<LoginPage />}
-            />
+            <RestrictedRoute redirectTo="/contacts" component={<LoginPage />} />
           }
         />
         <Route
           path="/contacts"
           element={
-            <PrivateRoute redirectedTo="/login" component={<ContactsPage />} />
+            <PrivateRoute redirectTo="/login" component={<ContactsPage />} />
           }
         />
       </Route>
